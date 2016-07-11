@@ -4,7 +4,8 @@
   "description": "Create a basic node application using `npm init`. Create a file containing the JavaScript for running your server called `server.js`. Remember that this is the filename you will pass to `node` to start your server.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",

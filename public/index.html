@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Solo express challenge</title>
+    <script src="jquery-3.0.0.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1>Accounts Balance</h1>
+    <div class="accountsBalance">
+      <div class="accountButton">
+        <button id="randomButton" type="button">Get Balance</button>
+      </div>
+      <div class="minMax">
+        <form id="inputForm">
+          Min:
+          <input type="number" name="min" id="min" /><br />
+          Max:
+          <input type="number" name="max" id="max"/><br />
+          <button type="submit" id="submitButton">Submit</button>
+        </form>
+      </div>
+      <p>
+        The accounts have the following balance(s):
+        <br />
+        <span id="balances"></span>
+        <br / />
+        <span id="cashMoney"></span>
+      </p>
+    </div>
+
+  </body>
+</html>
